@@ -1,0 +1,7 @@
+.vscode
+doc/_minted-report
+*.pygtex
+*.dot
+*.aux
+*.log
+*.toc

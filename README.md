@@ -7,6 +7,8 @@
 
 ## 作業上傳教學
 
+https://github.com/user-attachments/assets/9d627e34-8b7c-43eb-b3ba-b1aeb31238ec
+
 ## 目錄架構
 
 寫程式的時候通常有個共識，會根據檔案內容放在不同名稱意義的目錄下存放，以便專案的管理或協作時的方便性。

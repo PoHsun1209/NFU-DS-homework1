@@ -5,9 +5,9 @@
 1. 程式碼（cpp 檔）
 2. 作業報告（markdown 或 PDF）
 
-## 作業上傳教學
+## 網頁檔案上傳教學
 
-https://github.com/user-attachments/assets/9d627e34-8b7c-43eb-b3ba-b1aeb31238ec
+<https://github.com/user-attachments/assets/9d627e34-8b7c-43eb-b3ba-b1aeb31238ec>
 
 ## 目錄架構
 
@@ -42,11 +42,7 @@ HW<編號>（HW）/
 
 ```plain
 HW/
-├── bin/
-│   └── main.exe
-├── doc/
-│   ├── report.pdf
-│   └── README.md
+├── report.pdf
 └── src/
     ├── main.cpp
     ├── function.cpp
@@ -57,11 +53,7 @@ HW/
 
 ```plain
 HW/
-├── bin/
-│   └── main.out
-├── doc/
-│   ├── report.pdf
-│   └── README.md
+├── report.pdf
 └── src/
     ├── main.cpp
     ├── function.cpp

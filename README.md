@@ -5,9 +5,9 @@
 1. 程式碼（cpp 檔）
 2. 作業報告（markdown 或 PDF）
 
-## 作業上傳教學
+## 網頁檔案上傳教學
 
-https://github.com/user-attachments/assets/9d627e34-8b7c-43eb-b3ba-b1aeb31238ec
+<https://github.com/user-attachments/assets/9d627e34-8b7c-43eb-b3ba-b1aeb31238ec>
 
 ## 目錄架構
 
@@ -21,14 +21,11 @@ https://github.com/user-attachments/assets/9d627e34-8b7c-43eb-b3ba-b1aeb31238ec
 
 ```plain
 HW<編號>（HW）/
-├── 資料或報告區（doc）/
-│   └── 作業報告
-├── 源代碼區（src）/
-│   ├── 主程式
-│   ├── 副程式
-│   └── 自訂標頭
-└── 二進制（bin）/
-    └── 編譯檔
+├── 作業報告
+└── 源代碼區（src）/
+    ├── 主程式
+    ├── 副程式
+    └── 自訂標頭
 ```
 
 考慮到大家使用的作業系統會不一樣，在此列出常見三種作業系統在建構專案時的情況如下：
@@ -42,11 +39,7 @@ HW<編號>（HW）/
 
 ```plain
 HW/
-├── bin/
-│   └── main.exe
-├── doc/
-│   ├── report.pdf
-│   └── README.md
+├── report.pdf
 └── src/
     ├── main.cpp
     ├── function.cpp
@@ -57,11 +50,7 @@ HW/
 
 ```plain
 HW/
-├── bin/
-│   └── main.out
-├── doc/
-│   ├── report.pdf
-│   └── README.md
+├── report.pdf
 └── src/
     ├── main.cpp
     ├── function.cpp

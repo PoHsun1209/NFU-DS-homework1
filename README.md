@@ -5,6 +5,13 @@
 1. 程式碼（cpp 檔）
 2. 作業報告（markdown 或 PDF）
 
+其中您的需要有以下部分：
+
+1. 解題說明
+2. 效能分析
+3. 測試與驗證
+4. 申論及心得
+
 ## 網頁檔案上傳教學
 
 <https://github.com/user-attachments/assets/9d627e34-8b7c-43eb-b3ba-b1aeb31238ec>

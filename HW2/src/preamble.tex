@@ -1,0 +1,70 @@
+% Packages and configurations
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[singlelinecheck=false]{caption}
+\usepackage{enumerate}
+\usepackage[shortlabels]{enumitem}
+\usepackage{fancyhdr}
+\usepackage[Lenny]{fncychap}
+\usepackage{fontspec}
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm]{geometry}
+\usepackage[pdf]{graphviz}
+\usepackage{hyperref}
+\usepackage{minted}
+\usepackage{pgfplots}
+\usepackage{tcolorbox}
+\usepackage{titlesec}
+\usepackage{tikz}
+\usepackage{wrapfig}
+\usepackage{xeCJK}
+
+% Format Configuration
+\pgfplotsset{compat=1.18}
+\linespread{1.25}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{1em}
+\definecolor{LightGray}{HTML}{FAFAFA}
+\captionsetup[figure]{font=footnotesize}
+\makeatletter
+\newcommand{\unchapter}[1]{
+  \begingroup
+  \let\@makechapterhead\@gobble
+  \chapter{#1}
+  \endgroup
+}
+
+% Header Configuration
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\pagestyle{fancy}
+\fancyhead[l]{\doctitle}
+\fancyhead[r]{\assignment}
+\fancyfoot[l]{\footnotesize \authorname}
+\fancyfoot[c]{\footnotesize 第\hspace*{0.5em}\thepage\hspace*{0.5em}頁}
+\fancyfoot[r]{\footnotesize \identify}
+\renewcommand{\footrulewidth}{0.4pt}
+\setlength{\headheight}{14.67484pt}
+\addtolength{\topmargin}{-0.17485pt}
+
+\fancypagestyle{plain}{
+  \fancyhf{} % Clear all fields for plain pages
+  \fancyhead[L]{\doctitle}
+  \fancyhead[R]{\assignment}
+  \fancyfoot[L]{\footnotesize \authorname}
+  \fancyfoot[C]{\footnotesize 第\hspace*{0.5em}\thepage\hspace*{0.5em}頁}
+  \fancyfoot[R]{\footnotesize \identify}
+  \renewcommand{\footrulewidth}{0.4pt}
+}
+
+% Fonts Configuration
+\setmainfont{Noto Serif CJK TC}
+\setCJKmainfont{Noto Serif CJK TC}
+\setCJKsansfont{Noto Serif CJK TC}
+\setCJKmonofont{PingFang TC}
+\setmonofont{FiraCode Nerd Font}
+\CJKsetecglue{\hspace{-0.0005em}}
+
+% Information
+\title{\doctitle\ —\ \assignment}
+\author{\authorname\\ \identify}
+\date{\today}

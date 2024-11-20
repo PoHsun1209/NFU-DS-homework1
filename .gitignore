@@ -1,5 +1,5 @@
 .vscode
-doc/_minted-report
+*/*/_minted-main
 *.pygtex
 *.dot
 *.aux

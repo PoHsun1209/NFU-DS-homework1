@@ -1,6 +1,29 @@
 # 作業
 
-作業繳交重點：
+> [!CAUTION]
+> 作業規範一律以此份說明為主。
+
+## 作業繳交重點
+
+限定使用以下標頭檔：
+
+> [!WARNING]
+> 「作業繳交」、「上機測驗」限用以下規則、而「LeetCode 練習」、「CPE 練習」則不用。
+
+```cpp
+#include <algorithm>
+#include <cmath>
+#include <cstdio>
+#include <cstring>
+#include <cstdlib>
+#include <fstream>
+#include <iostream>
+#include <random>
+#include <sstream>
+#include <string>
+```
+
+您需要繳交：
 
 1. 程式碼（cpp 檔）
 2. 作業報告（markdown 或 PDF）

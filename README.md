@@ -1,14 +1,31 @@
-# 作業
+# NFU 資料結構作業規範
 
-> [!CAUTION]
-> 作業規範一律以此份說明為主。
+[**作業報告樣板請點我**](./template/report.md)
+
+作業上傳三步驟：
+
+1. 上傳程式碼（.cpp 或 .h ）至專案。
+2. 上傳 markdown 作業報告至專案。
+3. 上傳專案連結至 uLearn 作業區。
 
 ## 作業繳交重點
 
-限定使用以下標頭檔：
+- 報告只能使用 markdown 格式，不接受其他格式。
+- 報告檔名必需完全為 `report`。
+- 作業以資料夾為單位，請務必建立相同的[目錄架構](#目錄架構)。
+- 上傳程式碼到專案後，仍需把程式碼付在作業報告中。
 
-> [!WARNING]
-> 「作業繳交」、「上機測驗」限用以下規則、而「LeetCode 練習」、「CPE 練習」則不用。
+作業報告配分：
+
+| 項目              | 配分 |
+|-------------------|------|
+| 1. 解題說明       | 15%  |
+| 2. 程式實作       | 30%  |
+| 3. 效能分析       | 10%  |
+| 4. 測試與驗證     | 20%  |
+| 5. 申論及開發報告 | 25%  |
+
+上學期限用標頭（下學期不限制）：
 
 ```cpp
 #include <algorithm>
@@ -23,82 +40,123 @@
 #include <string>
 ```
 
-您需要繳交：
+> [!CAUTION]
+>
+> 1. 作業使用 GitHub Action 做格式檢查。
+> 2. 你的專案要有 `.github` 資料夾和底下的所有檔案。
+> 3. 作業截止前 GitHub Action 沒通過，請根據規格更新你的作業報告。
+> 4. 作業截止後 GitHub Action 沒狀態、沒通過，**作業等於沒交**。
 
-1. 程式碼（cpp 檔）
-2. 作業報告（markdown 或 PDF）
+## 目錄架構
 
-其中您的需要有以下部分：
-
-1. 解題說明（15%）
-2. 程式實作（30%）
-3. 效能分析（10%）
-4. 測試與驗證（20%）
-5. 申論及開發報告（25%）
+```plain
+.
+├── homework1/
+│   ├── src/
+│   └── report.md
+├── homework2/
+│   ├── src/
+│   └── report.md
+└── homework3/
+    ├── src/
+    └── report.md
+```
 
 ## 網頁檔案上傳教學
 
 <https://github.com/user-attachments/assets/9d627e34-8b7c-43eb-b3ba-b1aeb31238ec>
 
-## 目錄架構
+## markdown 語法教學
 
-寫程式的時候通常有個共識，會根據檔案內容放在不同名稱意義的目錄下存放，以便專案的管理或協作時的方便性。
+| **功能**     | **語法**                      | **顯示效果**                           |
+|--------------|-------------------------------|----------------------------------------|
+| **粗體**     | `**粗體**` 或 `__粗體__`      | **粗體**                               |
+| **斜體**     | `*斜體*` 或 `_斜體_`          | *斜體*                                 |
+| **超連結**   | `[超連結文字說明](網址)` | [點我](https://example.com)            |
+| **圖片**     | `![圖片描述](圖片網址)`       | ![示例](https://picsum.photos/200/300) |
+| **無序清單** | `- 項目 1` <br> `- 項目 2`    | - 項目 1 <br> - 項目 2                 |
+| **有序清單** | `1. 第一項` <br> `2. 第二項`  | 1. 第一項 <br> 2. 第二項               |
+| **數學式**   | `$O(\log n)$`。               | $O(\log n)$                            |
 
-下表為本課程建議的目錄結構，大致上分為兩個區塊：
+使用以下語法就可以將程式附加在 markdown 報告中：
 
-1. 作業報告檔案區
-2. 持續編輯的源始碼區
+``````plain
+```cpp
+#include <iostream>
 
-```plain
-HW<編號>（HW）/
-├── 作業報告
-└── 源始碼區（src）/
-    ├── 主程式
-    ├── 副程式
-    └── 自訂標頭
+using namesapce std;
+
+int main() {
+    cout << "hello world" << '\n';
+}
+```
+``````
+
+markdown 預覽：
+
+```cpp
+#include <iostream>
+
+using namesapce std;
+
+int main() {
+    cout << "hello world" << '\n';
+}
 ```
 
-考慮到大家使用的作業系統會不一樣，在此列出常見三種作業系統在建構專案時的情況如下：
+## 作業章節說明
 
-> [!NOTE]
-> 主程式檔名這裡示範叫 `main`，大家可根據自己的喜好調整檔名，不強制叫做 `main`。
+### 1. 解題說明
+
+需撰寫「解題方法」：
+
+1. 問題描述：清楚陳述題目背景與要求。
+2. 解題策略：提供您的規劃步驟，例如使用演算法或資料結構。
+
+### 2. 程式實作
+
+上傳程式碼到專案後，仍需把程式碼付在 markdown 報告中。
+
+> [!CAUTION]
+> 編輯器、IDE 使用者**請把程式碼自行貼在報告裡**。
+
+### 3. 效能分析
+
+針對程式碼的效能進行 Big-O 分析，說明兩種複雜度的狀況：
+
+1. 時間複雜度。
+2. 空間複雜度。
+
+> [!NOTE]  
 >
-> 可根據自身喜好、作業規模調整是否要建立副程式、自訂標頭來維護專案架構，不強制一定要建立。
+> - 通用格式： $O(1)$ 、 $O(\log n)$ 、 $O(n)$ 、 $O(n^2)$ 、 $O(2^n)$
+> - 詳細分析： $O(100\times \log n + \pi)$
+>
 
-### Windows
+### 4. 測試與驗證
 
-```plain
-HW/
-├── report.pdf
-└── src/
-    ├── main.cpp
-    ├── function.cpp
-    └── custom_header.h
-```
+程式的輸入與輸出。
 
-### Linux/macOS
+> [!IMPORTANT]  
+> 非 IDE 使用者「程式輸入與輸出」需含編譯指令、編譯參數以及輸出，如下列表示：
+>
+> ``````plain
+> ```shell
+> $ g++ main.c --std=c++21 -o main.exe
+> $ .\main.exe
+> hello world!
+> ```
+> ``````
+>
+> `$` 代表使用者在 shell 中的輸入。
+>
+> - `$ g++ main.c --std=c++21 -o main.exe` 是編譯指令
+> - `$ .\main.exe` 是執行指令
+> - 最後沒有 `$` 的 `hello world!` 代表程式輸出。
+>
+> 只要像這樣寫就能清楚表達，哪個是使用者輸入與程式輸出。
+>
 
-```plain
-HW/
-├── report.pdf
-└── src/
-    ├── main.cpp
-    ├── function.cpp
-    └── custom_header.h
-```
+### 5. 申論及開發報告
 
-## 參考資料
-
-- Gilliland HE III. [What is a general C++ project structure like?](https://www.linkedin.com/pulse/what-general-c-project-structure-like-herbert-elwood-gilliland-iii). LinkedIn. Accessed July 24, 2024.
-- SWLH. [C++ Project Structure and Cross-Platform Build With CMake](https://medium.com/swlh/c-project-structure-for-cmake-67d60135f6f5). Medium. Accessed July 24, 2024.
-- Stack Overflow. [What's a good directory structure for larger C++ projects using Makefile? - Stack Overflow](https://stackoverflow.com/questions/2360734/whats-a-good-directory-structure-for-larger-c-projects-using-makefile). Accessed July 24, 2024.
-- Reddit. [Project structure in C++!! - Reddit](https://www.reddit.com/r/cpp_questions/comments/m7k0bs/project_structure_in_c/). Accessed July 24, 2024.
-
-### 推薦閱讀
-
-- [markdown 語法](https://markdown.tw/)
-- [Inline LaTeX 語法](https://hackmd.io/@sysprog/gnu-linux-dev/https%3A%2F%2Fhackmd.io%2Fs%2FB1RwlM85Z)
-
-### 工具
-
-- [目錄樹](https://tree.nathanfriend.io/)
+寫下使用到某資料結構、演算法的原因。

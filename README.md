@@ -1,6 +1,6 @@
 # NFU 資料結構作業規範
 
-- [教學投影片連結](c)
+- [教學投影片連結](https://docs.google.com/presentation/d/1U31srG7KL6rc0ls3-XUchzfBFKQkm7f2B_Ab9VUwRks)
 - [**作業報告樣板請點我**](https://github.com/NFU-OpenDataStructure/Homework-template)
 
 作業上傳三步驟：

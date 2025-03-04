@@ -62,10 +62,6 @@
     └── report.md
 ```
 
-## 網頁檔案上傳教學
-
-<https://github.com/user-attachments/assets/9d627e34-8b7c-43eb-b3ba-b1aeb31238ec>
-
 ## markdown 語法教學
 
 | **功能**     | **語法**                      | **顯示效果**                           |

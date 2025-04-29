@@ -153,7 +153,7 @@ void testSorting(vector<int>& arr, void (*sortFunc)(vector<int>&), string sortNa
 
 ## 執行結果
 n=500
-![image](https://cdn.discordapp.com/attachments/967597712142901288/1366141837735366746/image.png?ex=680fde3b&is=680e8cbb&hm=181178772d9156519a90593b289f8c08c9bae9ef4dc78d02c4a9f2c40f214700&)
+![image](https://github.com/PoHsun1209/NFU-DS-homework1/blob/main/report/image/n_500.jpg)
 
 n=1000
 ![image](https://cdn.discordapp.com/attachments/967597712142901288/1366141869720997928/image.png?ex=680fde43&is=680e8cc3&hm=ce782df7ffae8e0b085656bc22732dab5bc8cd014d30315655ff0727844ac95d&)

@@ -156,24 +156,24 @@ n=500
 ![image](https://github.com/PoHsun1209/NFU-DS-homework1/blob/main/report/image/n_500.jpg)
 
 n=1000
-![image](https://cdn.discordapp.com/attachments/967597712142901288/1366141869720997928/image.png?ex=680fde43&is=680e8cc3&hm=ce782df7ffae8e0b085656bc22732dab5bc8cd014d30315655ff0727844ac95d&)
+![image](https://github.com/PoHsun1209/NFU-DS-homework1/blob/main/report/image/n_1000.jpg)
 
 n=2000
-![image](https://cdn.discordapp.com/attachments/967597712142901288/1366141922175090789/image.png?ex=680fde4f&is=680e8ccf&hm=122ee2fea8be9737362e76a70f28f9e4b596de63d2574d1fbffd2eacdff0bed7&)
+![image](https://github.com/PoHsun1209/NFU-DS-homework1/blob/main/report/image/n_2000.jpg)
 
 n=4000
-![image](https://cdn.discordapp.com/attachments/967597712142901288/1366141948984954901/image.png?ex=680fde56&is=680e8cd6&hm=40caac05f29dbac5406d11a1ca79d749b048030ef731bab8849210769ac8c862&)
+![image](https://github.com/PoHsun1209/NFU-DS-homework1/blob/main/report/image/n_4000.jpg)
 
 n=5000
-![image](https://cdn.discordapp.com/attachments/967597712142901288/1366141977862737980/image.png?ex=680fde5d&is=680e8cdd&hm=2b199fba8024014b4f0ad5a11d9775cea59f225c1bd33debf2d0fd21c13e547e&)
+![image](https://github.com/PoHsun1209/NFU-DS-homework1/blob/main/report/image/n_5000.jpg)
 
 ## 排序演算法平均時間對比
 
-![image](https://cdn.discordapp.com/attachments/967597712142901288/1366151831503507466/image.png?ex=680fe78a&is=680e960a&hm=c7ef42776ffbb4b2afb209460f7e0952e0637fcffb6e4ce9fc9cd4c1afe2f9ff&)
+![image](https://github.com/PoHsun1209/NFU-DS-homework1/blob/main/report/image/avg.jpg)
 
 ## 最壞情況執行時間對比
 
-![image](https://cdn.discordapp.com/attachments/967597712142901288/1366152285834711060/image.png?ex=680fe7f6&is=680e9676&hm=9eae1e0600baaaa6d57e3ccc783e4ae21ca62cd8a873a531e399df628bae71fe&)
+![image](https://github.com/PoHsun1209/NFU-DS-homework1/blob/main/report/image/worst.jpg)
 
 ---
 
